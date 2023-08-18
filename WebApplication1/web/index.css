@@ -1,0 +1,12 @@
+.cabecalho{
+    display: flex;
+    padding: 30px;
+    font: 800 large sans-serif;
+}
+
+.cabecalho > a{
+    gap: 10px;
+    text-decoration: none;
+    
+}
+
