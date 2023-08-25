@@ -98,3 +98,8 @@
 25-Aug-2023 08:31:55.002 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\conf\Catalina\localhost\WebApplication1.xml]
 25-Aug-2023 08:31:55.068 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\conf\Catalina\localhost\WebApplication1.xml] has finished in [66] ms
 25-Aug-2023 08:31:55.072 INFO [http-nio-8080-exec-14] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]] after start() had already been called. The second call will be ignored.
+25-Aug-2023 09:59:29.056 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Aug-2023 09:59:29.383 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Aug-2023 09:59:30.374 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Aug-2023 09:59:32.091 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Aug-2023 09:59:32.286 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

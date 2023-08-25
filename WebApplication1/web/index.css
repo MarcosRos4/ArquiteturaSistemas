@@ -1,6 +1,7 @@
 header, nav, main, footer {
     width: 100%;    
-    color: rgb(0, 85, 148)
+    color: rgb(0, 85, 148);
+    font: 200 senac1;
 }
 img{
     max-width: 8%;
