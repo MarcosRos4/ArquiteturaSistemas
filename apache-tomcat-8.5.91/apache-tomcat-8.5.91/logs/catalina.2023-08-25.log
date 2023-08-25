@@ -1,0 +1,100 @@
+25-Aug-2023 08:23:55.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.91
+25-Aug-2023 08:23:55.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 6 2023 14:43:48 UTC
+25-Aug-2023 08:23:55.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.91.0
+25-Aug-2023 08:23:55.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Aug-2023 08:23:55.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Aug-2023 08:23:55.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Aug-2023 08:23:55.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.1.1
+25-Aug-2023 08:23:55.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1.1+2-6
+25-Aug-2023 08:23:55.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Aug-2023 08:23:55.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91
+25-Aug-2023 08:23:55.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91
+25-Aug-2023 08:23:55.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Aug-2023 08:23:55.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Aug-2023 08:23:55.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Aug-2023 08:23:55.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Aug-2023 08:23:55.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Aug-2023 08:23:55.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\conf\logging.properties
+25-Aug-2023 08:23:55.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Aug-2023 08:23:55.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|CAS576131E169D
+25-Aug-2023 08:23:55.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Aug-2023 08:23:55.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Aug-2023 08:23:55.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Aug-2023 08:23:55.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91
+25-Aug-2023 08:23:55.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91
+25-Aug-2023 08:23:55.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\temp
+25-Aug-2023 08:23:55.329 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jre-8.0.332.9-hotspot\bin;C:\Program Files\Eclipse Adoptium\jre-17.0.3.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jre-11.0.15.10-hotspot\bin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.332.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\xampp\php;C:\composer;C:\Program Files\Docker\Docker\resources\bin;C:\Users\marcos.vcrosa\AppData\Local\Microsoft\WindowsApps;C:\Users\marcos.vcrosa\AppData\Local\GitHubDesktop\bin;C:\Users\marcos.vcrosa\AppData\Local\Programs\Microsoft VS Code\bin;.]
+25-Aug-2023 08:23:55.560 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Aug-2023 08:23:55.645 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2185 ms
+25-Aug-2023 08:23:56.150 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Aug-2023 08:23:56.150 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.91]
+25-Aug-2023 08:23:56.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\conf\Catalina\localhost\WebApplication1.xml]
+25-Aug-2023 08:23:56.407 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+	org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7816c167]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4590)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4728)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\marcos.vcrosa\Documents\WebApplication1\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+25-Aug-2023 08:23:56.408 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:714)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:687)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:673)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1881)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@7816c167]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4590)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4728)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:710)
+		... 9 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\marcos.vcrosa\Documents\WebApplication1\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:720)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:678)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 13 more
+25-Aug-2023 08:23:56.452 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\conf\Catalina\localhost\WebApplication1.xml] has finished in [272] ms
+25-Aug-2023 08:23:56.453 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\webapps\docs]
+25-Aug-2023 08:23:57.255 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [107] milliseconds.
+25-Aug-2023 08:23:57.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\webapps\docs] has finished in [862] ms
+25-Aug-2023 08:23:57.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\webapps\examples]
+25-Aug-2023 08:24:00.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\webapps\examples] has finished in [2,856] ms
+25-Aug-2023 08:24:00.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\webapps\host-manager]
+25-Aug-2023 08:24:00.323 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\webapps\host-manager] has finished in [149] ms
+25-Aug-2023 08:24:00.323 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\webapps\manager]
+25-Aug-2023 08:24:00.476 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\webapps\manager] has finished in [153] ms
+25-Aug-2023 08:24:00.476 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\webapps\ROOT]
+25-Aug-2023 08:24:00.582 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\webapps\ROOT] has finished in [106] ms
+25-Aug-2023 08:24:00.586 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Aug-2023 08:24:00.755 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5108 ms
+25-Aug-2023 08:24:07.912 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplication1]
+25-Aug-2023 08:24:07.954 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\conf\Catalina\localhost\WebApplication1.xml]
+25-Aug-2023 08:24:08.090 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\conf\Catalina\localhost\WebApplication1.xml] has finished in [136] ms
+25-Aug-2023 08:24:08.095 INFO [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]] after start() had already been called. The second call will be ignored.
+25-Aug-2023 08:31:54.946 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplication1]
+25-Aug-2023 08:31:55.002 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\conf\Catalina\localhost\WebApplication1.xml]
+25-Aug-2023 08:31:55.068 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\marcos.vcrosa\Documents\GitHub\ArquiteturaSistemas\apache-tomcat-8.5.91\apache-tomcat-8.5.91\conf\Catalina\localhost\WebApplication1.xml] has finished in [66] ms
+25-Aug-2023 08:31:55.072 INFO [http-nio-8080-exec-14] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication1]] after start() had already been called. The second call will be ignored.

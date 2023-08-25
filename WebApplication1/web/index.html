@@ -4,57 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Discord</title>
-    
-</head>
-<body>
-    
-    <div class="cabecalho">
-        <a>Senac Logo</a>
+    <link href="public/css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="public/css/global.css" rel="stylesheet" type="text/css"/>
+    <title>Sistema Senac</title>
+    <body>
+        <header>
+            <img src="public/assets/images/1200px-Senac_logo.svg.png" alt=""/>
+            <form method="post" action="ControleLogin">
+                <label for="user"> Usuário </label>
+                <input id="user" type="text" name="usuario">
+                <label for="senha"> Senha </label>
+                <input id="senha" type="password" name="senha">
+                <input type="submit" value="Entrar">
+            </form>
+        </header>
         <nav>
-        <a href="https://www.google.com">Cursos</a>
-        <a href="https://www.google.com">Bolsas e Descontos</a>
-        <a href="https://www.google.com">Eventos</a>
-        <a href="https://www.google.com">Unidades</a>
-        <a href="https://www.google.com">Para Empresas</a>
-        <a href="https://www.google.com">O Senac</a>
-        <a href="https://www.google.com">Serviços</a>
+            <div class="menu">
+                <button class="botao">Funcionarios</button>
+                <div class="submenu">
+                    <a href="Cfun.html" target="centro">Cadastro</a>
+                    <a href="Rfun.html" target="centro">Consulta</a>
+                    <a href="Ufun.html" target="centro">Alteração</a>
+                    <a href="Dfun.html" target="centro">Exclusão</a>
+                    <a href="Lfun.html" target="centro">Listagem</a>                    
+                </div>
+            </div>
+            <div class="menu">
+                <button class="botao">Departamentos</button>
+                <div class="submenu">
+                    <a href="Cdep.html" target="centro">Cadastro</a>
+                    <a href="Rdep.html" target="centro">Consulta</a>
+                    <a href="Udep.html" target="centro">Alteração</a>
+                    <a href="Ddep.html" target="centro">Exclusão</a>
+                    <a href="Ldep.html" target="centro">Listagem</a>                    
+                </div>
+            </div>
+            <div class="menu">
+                <button class="botao">Usuarios</button>
+                <div class="submenu">
+                    <a href="Cuser.html" target="centro">Cadastro</a>
+                    <a href="Ruser.html" target="centro">Consulta</a>
+                    <a href="Uuser.html" target="centro">Alteração</a>
+                    <a href="Duser.html" target="centro">Exclusão</a>
+                    <a href="Luser.html" target="centro">Listagem</a>                    
+                </div>
+            </div>
         </nav>
-        <input type="search" name="buscar" value="pesquisar">
-    </div>
-    <div class="central">
-        <div>
-            <h1>Ensino Médio Técnico</h1>
-            <h3>Formação inovadora que prepara você para profissão e para a vida Escolha seu curso.</h3>
-        </div>
-        <div>
-            <input type="search" name="name" value="O que você procura?">
-        </div>
-    </div>
-    <div class="cursos">
-        <h2>Conheça nossos cursos</h2>
-        <div>
-            <input type="button" name="especializacao" value="Especialização Técnica">
-            <input type="button" name="tecnico" value="Técnico">
-            <input type="button" name="ensinomedio" value="Ensino Médio Técnico">
-            <input type="button" name="livre" value="Livre">
-            <input type="button" name="idiomas" value="Idiomas">
-            <input type="button" name="graduacao" value="Graduação">
-            <input type="button" name="posgraduacao" value="Pós-graduação">
-            <input type="button" name="extensao" value="Extensão">
-            <input type="button" name="jovemaprendiz" value="Jovem Aprendiz">
-            <input type="button" name="ead" value="EAD">
-            
-            
-        </div>
-    </div>
+        <main>
+            <iframe src="inicial/index.html" title="inicial" name="centro">
+            </iframe>
+        </main>
+        <footer>
+            rodapé
+        </footer>
+    </body>
     
-</body>
-
 </html>
-
-<!--
-
-rgb fundo azul discord: r 64 b 237 g 78 matiz 157 sat 199 lum 142
-
--->
