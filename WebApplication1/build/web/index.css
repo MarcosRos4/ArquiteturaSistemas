@@ -4,15 +4,16 @@ header, nav, main, footer {
     font: 200 senac1;
 }
 img{
-    max-width: 8%;
+    max-width: 5%;
 }
 
 header{
-    background-color: #918180;
+    background-color: #f5e4d0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    padding: 30px;
 }
 
 nav{
@@ -23,11 +24,11 @@ nav{
 
 main {
     height: 300px;
-    background-color:#918180 
+    background-color:rgb(228,232,240);
 }
 
 footer{
-    background-color:black;
+    background-color:rgb(0,74,140);
     color: white
 }
 

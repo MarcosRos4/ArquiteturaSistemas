@@ -5,6 +5,11 @@
         <group>
             <file>file:/C:/Users/marcos.vcrosa/Documents/WebApplication1/web/index.html</file>
         </group>
-        <group name="Group 20230818-09:19:36"/>
+        <group name="Group 20230818-09:19:36">
+            <file>file:/C:/Users/marcos.vcrosa/Documents/GitHub/ArquiteturaSistemas/WebApplication1/src/conf/persistence.xml</file>
+            <file>file:/C:/Users/marcos.vcrosa/Documents/GitHub/ArquiteturaSistemas/WebApplication1/src/java/model/SenacDao.java</file>
+            <file>file:/C:/Users/marcos.vcrosa/Documents/GitHub/ArquiteturaSistemas/WebApplication1/src/java/controller/ControllerUsuario.java</file>
+            <file>file:/C:/Users/marcos.vcrosa/Documents/GitHub/ArquiteturaSistemas/WebApplication1/web/index.html</file>
+        </group>
     </open-files>
 </project-private>
