@@ -1,25 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package controller;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import model.Departamento;
 import model.SenacDao;
-import model.Usuario;
 
 /**
  *
  * @author marcos.vcrosa
  */
-@WebServlet(name = "ControllerUsuario", urlPatterns = {"/ControllerUsuario"})
-public class ControllerUsuario extends HttpServlet {
+@WebServlet(name = "ControllerDepartamento", urlPatterns = {"/ControllerDepartamento"})
+public class ControllerDepartamento extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -31,37 +28,33 @@ public class ControllerUsuario extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
-        throws ServletException, IOException {
+            throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String flag, u, s, mensagem, arquivo;
+        // aqui fica a programação da servlet
+        String flag, nome, telefone, mensagem;
+        RequestDispatcher dispatcher;
         flag = request.getParameter("flag");
-        if (flag.equals("login")) {
-            u = request.getParameter("usuario");
-            s = request.getParameter("senha");
+        if (flag.equals("Cdep")){
+            nome = request.getParameter("nome");
+            telefone = request.getParameter("telefone");
+            
+            Departamento departamento = new Departamento();
+            departamento.setNomedepartamento(nome);
+            departamento.setTelefonedepartamento(telefone);
+            
             SenacDao dao = new SenacDao();
-            Usuario usuario = dao.validarLogin(u, s);
-            if (usuario==null){ //não achou o usuario no BD
-                mensagem = "Usuário e/ou senha inválidos";
-                request.setAttribute("mensagem", mensagem);
-                RequestDispatcher disp = request.getRequestDispatcher("mensagens.jsp");
-                disp.forward(request, response);
-            } else { //achou o usuario no BD
-                String nome = usuario.getFuncionario().getNomefuncionario();
-                String cargo = usuario.getFuncionario().getCargofuncionario();
-                if(cargo.equalsIgnoreCase("gerente")){
-                    arquivo = "acesso_admin.jsp";
-                }else {
-                    arquivo = "acesso_outros.jsp";
-                }
-                request.setAttribute("nome", nome);
-                RequestDispatcher disp = request.getRequestDispatcher(arquivo);
-                disp.forward(request, response);                
+            int resultado =  dao.salvarDepartamento(departamento);
+            
+            if(resultado==1){
+                mensagem = "Departamento salvo com sucesso :)";
             }
-        } else if(flag.equals("cadastroUsuario")){
-            //aqui vai a parte decadastro de usuário
+            else{
+                mensagem = "Erro ao tentar salvar o departamento :(";
+            }
+            request.setAttribute("mensagem", mensagem);
+            dispatcher = request.getRequestDispatcher("mensagem.jsp");
+            dispatcher.forward(request, response);
         }
-        
-        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

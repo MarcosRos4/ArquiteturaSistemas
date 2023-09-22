@@ -1,0 +1,23 @@
+<html lang='pt-br'>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Cdep.css">
+        <link href="public/css/normalize.css" rel="stylesheet" type="text/css"/>
+        <link href="public/css/global.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div>
+            <h3>Cadastro de Departamentos</h3>
+            <form method="post" action="ControleDepartamento">
+                <input type="hidden" name="flag" value="Cdep">
+                <label>Nome do Departamento:</label>
+                <input type="text" name="nome" maxlength="70" required>
+                <label>Telefone do Departamento:</label>
+                <input type="tel" name="fone" maxlength="15">
+                <input type="submit" name="submit" value="Cadastrar Departamento">
+            </form>
+        </div>
+    </body>
+</html>
