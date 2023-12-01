@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>EDITAR PRODUTO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>EDIÇÃO DE PRODUTO</h1>
+            <form method="post" action="../ControllerProduto">
+                <input type="hidden" name="flag" value="escolherProdutoEdicao">
+                <p>
+                    <label>Id do Produto</label>
+                    <input type="number" name="idproduto">
+                </p>
+                
+                <input type="submit" name="editar" value="Escolher Produto">
+            </form>
+        </div>
+    </body>
+</html>

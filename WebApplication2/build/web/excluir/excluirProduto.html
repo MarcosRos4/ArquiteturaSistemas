@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>EXCLUIR PRODUTO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>EXCLUSÃO DE PRODUTO</h1>
+            <form method="post" action="../ControllerProduto">
+                <input type="hidden" name="flag" value="escolherProdutoExclusao">
+                <p>
+                    <label>Id do Produto</label>
+                    <input type="number" name="idproduto">
+                </p>
+                
+                <input type="submit" name="excluir" value="Escolher Produto">
+            </form>
+        </div>
+    </body>
+</html>
